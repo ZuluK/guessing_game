@@ -42,3 +42,34 @@ h1.text-center {
   background-color: #d9534f;
   transition: 0.3s all ease-in-oiut;
 }
+
+/*footer*/
+footer{
+    background-color: #000;
+}
+footer .links{
+    padding-top: 17px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+footer .links a > i{
+    font-size: 2.3em;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer .links a > i:hover{
+    color: steelblue !important;
+}
+footer .links .ccopy{
+    margin-top: 25px;
+    font-size: 0.86em;
+}
+footer .links .ccopy > i{
+    color: #f00;
+    margin: 0;
+    padding: 3px
+}
+ .progress {
+   display: none;
+ }
