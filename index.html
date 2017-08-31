@@ -1,0 +1,71 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <!-- Main CSS  -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font Awesome Icons -->
+    <script src="https://use.fontawesome.com/b420e0814b.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <!-- title -->
+    <title>Guessing Game Application</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- META VIEWPORT -->
+    <meta name="viewport" content="width=device-width,initial=1.0">
+    <meta charset="utf-8">
+    <script src="js/angular.min.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+
+              <form id="form">
+                <div class="form-group">
+                  <h1 class="text-center">Guess a number between 1-100</h1>
+                  <p id="guesses"></p>
+                </div>
+                <div class="form-group">
+                  <input id="userGuess" type="number" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-primary btn-block" type="button" onclick="whatGuess()">Try and guess</button>
+                </div>
+
+                <!--displays results -->
+                <div id="results"></div>
+
+              </form>
+          </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  <!-- JQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
